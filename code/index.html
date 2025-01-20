@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1NUN [$4.99] P0RTFOL1O</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background-image.png') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+        }
+        header {
+            position: relative;
+            background-color: #333;
+            color: #006aff;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        .artwork-of-the-day {
+            margin-bottom: 20px;
+        }
+        .artwork-of-the-day img {
+            display: block; /* Kuvista blokkitason elementtejä */
+            margin: 0 auto; /* Keskittää kuvat vaakasuunnassa */
+            width: 60%; /* Pienentää kuvien kokoa (voit muuttaa arvoa) */
+            max-width: 500px; /* Maksimileveys kuville */
+            height: auto; /* Säilyttää kuvasuhteen */
+            margin-bottom: 20px; /* Lisää tilaa kuvien väliin */
+        }
+        
+
+        .links {
+    display: flex;
+    flex-direction: column; /* Asettaa elementit pystysuuntaan */
+    align-items: center; /* Keskittää sisällön vaakasuunnassa */
+    gap: 10px; /* Lisää tilaa kuvan ja linkin väliin */
+    margin: 20px 0;
+}
+        .links img {
+            width: 50%; /* Kuva on sopivan kokoinen */
+            height: auto;
+        }
+.links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #006aff;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Lisää kevyen reunuksen */
+    font-weight: bold;
+}
+
+        .creator-info {
+            margin-top: 40px;
+            background-color: #40c4ff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .read-more-img {
+            display: block; /* Varmistaa, että kuva ei ole inline */
+            margin: 0 auto; /* Keskittää kuvan */
+            width: 50%; /* Skaalaa kuvan leveys kolmasosaan */
+            height: auto; /* Säilyttää kuvasuhteen */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="banner_photo.png" alt="banner">
+    </header>
+
+    <main>
+        <!-- Artwork of the Day Section -->
+        <section class="artwork-of-the-day">
+            <img src="featured.png" alt="feautured">
+            <img src="poster (finished).jpg" alt="2D-pelini">´
+            <a href="peli.html">Lue tietoa pelistä!</a>
+        </section>
+
+        <!-- Creator Information -->
+        <section class="creator-info">
+            <img class="read-more-img" src="read-more-about.png" alt="opi lisää">
+            <a href="creator.html">Lue lisää minusta!</a>
+        </section>
+    </main>
+
+</body>
+</html>

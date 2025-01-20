@@ -1,0 +1,27 @@
+body {
+    background-image: url(images/sr22a25ca9926aws3.png);
+    font: icon;
+    color: yellow;
+    width: auto
+    max-width: 010px;
+}
+
+.spamsona {
+    width: 500px;             /* Poistaa prosentuaalisen koon */
+    max-width:1000%;         /* Estää kuvan venymistä yli alkuperäisen koon */
+    height: auto;            /* Pidä alkuperäiset mittasuhteet */
+    max-height: none;        /* Ei rajoita korkeutta */
+    top: 30px;
+    position: relative;      /* Asettaa kuvan suhteellisesti */
+}
+
+.banner {
+    width: 100%;         /* Bannerin leveys täyttää aina koko sivun leveyden */
+    height: auto;        /* Pidä kuvan mittasuhteet oikeina */
+    max-width: none;     /* Poista ylärajoitus, jotta kuva voi kasvaa vapaasti */
+    object-fit: cover;   /* Varmistaa, että kuva peittää koko alueen ilman vääristymistä */
+    position: relative;  /* Aseta kuva suhteellisesti yläosaan */
+}
+
+}
+
